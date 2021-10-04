@@ -1,0 +1,394 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  color: white;
+}
+/* 🠗🠗🠗🠗🠗 index 🠗🠗🠗🠗🠗 */
+header {
+  width: 100%;
+  background-color: black;
+}
+.header {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.newserific {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+.newserific .bigheader {
+  padding-top: 15px;
+}
+.newserific .bigheader h1 {
+  color: #bfe009;
+}
+.newserific .bigheader p {
+  color: #666666;
+}
+nav {
+  width: 100%;
+  background-color: #839b05;
+  position: sticky;
+  top: 0;
+}
+.nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #839b05;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.nav .headname {
+  text-transform: uppercase;
+}
+.nav .headname a {
+  text-decoration: none;
+  color: white;
+  padding: 0 15px;
+  font-size: 15px;
+  /* margin-right: 30px; */
+}
+.nav .headname a:hover {
+  padding: 22px 15px;
+  background-color: black;
+}
+.nav .headname .searchbar {
+  width: 160px;
+  height: 30px;
+  background-color: black;
+  border: 0;
+  padding-left: 5px;
+}
+.nav .headname .search {
+  color: #bfe009;
+  text-transform: uppercase;
+  width: 80px;
+  height: 30px;
+  background-color: #2c2c2c;
+  padding: 5px;
+  font-weight: bolder;
+}
+.pnew {
+  width: 100%;
+  height: 125vh;
+  background-color: black;
+  border-bottom: 1px solid #bfe009;
+}
+.new {
+  max-width: 1000px;
+  height: 120vh;
+  margin: 0px auto;
+  background-color: black;
+  display: flex;
+}
+.new .newone {
+  width: 65%;
+  padding-top: 30px;
+  margin-right: 2%;
+}
+.new .newone img {
+  width: 640px;
+  border: 1px solid #bfe009;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.newone p {
+  color: white;
+  font-size: 15px;
+  padding-bottom: 15px;
+}
+.newone .little_news {
+  display: flex;
+  margin-top: 35px;
+}
+.newone .little_news .a_little_news {
+  width: 200px;
+  margin-right: 15px;
+}
+.newone .little_news .a_little_news img {
+  width: 200px;
+}
+.new .newtwo {
+  width: 33%;
+  padding-top: 30px;
+  color: white;
+}
+.newtwo .little_news_two {
+  display: flex;
+  margin-bottom: 30px;
+  border-bottom: 1px dotted white;
+}
+.newtwo .little_news_two img {
+  width: 120px;
+  height: 100px;
+  margin: 0 10px;
+  border: 1px solid #bfe009;
+  padding: 5px;
+}
+.newtwo .little_news_two p {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.latest_gallery_pics {
+  height: 95vh;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid #bfe009;
+}
+.lgp {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.lgp_head {
+  display: flex;
+  justify-content: center;
+}
+.lgp_head h1 {
+  color: #2c2c2c;
+  text-transform: uppercase;
+  font-size: 80px;
+  padding: 50px 0;
+}
+.lgp .lgp_pics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.lgp .lgp_pics img {
+  border: 1px solid #bfe009;
+  padding: 5px;
+  margin: 5px;
+}
+.asone {
+  width: 100%;
+  height: 75vh;
+  background-color: black;
+  border-bottom: 1px solid #bfe009;
+}
+.asone .asone_oak {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+.asone_oak .twitter {
+  width: 23%;
+  margin: 2%;
+  color: white;
+}
+.asone_oak .twitter h1 {
+  color: #585858;
+  font-size: 22px;
+  padding: 30px 0 10px 0;
+  border-bottom: 1px dotted #585858;
+  margin-bottom: 20px;
+}
+.twitter p {
+  font-size: 15px;
+}
+.flickr img {
+  width: 45%;
+  height: 100px;
+  border: 1px solid #bfe009;
+  padding: 5px;
+  margin: 4px;
+}
+.advertise img {
+  width: 100%;
+  border: 1px solid #bfe009;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.bigfooter {
+  width: 100%;
+  height: 15vh;
+  background-color: #151515;
+}
+.smallfooter {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+}
+.smallfooter .footerone {
+  width: 60%;
+}
+.smallfooter .footerone,
+.footertwo p {
+  color: #666666;
+  font-size: 17px;
+  padding: 25px 0;
+}
+.smallfooter .footertwo {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+/* 🠗🠗🠗🠗🠗 full_width 🠗🠗🠗🠗🠗 */
+.lgp_fullwidth {
+  height: 185vh;
+  color: white;
+}
+.lgp .lgp_pics {
+  margin-bottom: 30px;
+}
+.lgp .headlines h3 {
+  padding-bottom: 15px;
+}
+.lgp .headlines p {
+  font-size: 15px;
+}
+.lgp .headlines ul,
+ol {
+  font-size: 15px;
+  padding-left: 50px;
+}
+/* 🠗🠗🠗🠗🠗 style demo 🠗🠗🠗🠗🠗 */
+.dunno_items {
+  width: 100%;
+  height: 225vh;
+  background-color: black;
+  border-bottom: 1px solid #bfe009;
+}
+.items {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+}
+.items .item_one {
+  width: 61%;
+  margin-right: 4%;
+  padding-top: 40px;
+}
+.item_one img {
+  width: 140px;
+  height: 150px;
+  float: right;
+  border: 1px solid white;
+  padding: 5px;
+}
+.item_one p {
+  font-size: 15px;
+}
+.item_one table {
+  margin: 20px 0;
+}
+.item_one table,
+tr th,
+td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+.item_one table tr th {
+  width: 252.5px;
+  height: 35px;
+  font-size: 15px;
+}
+.item_one table tr td {
+  color: #999999;
+}
+.comments {
+  margin: 20px 0;
+}
+.comment1 {
+  width: 100%;
+  height: 130px;
+  background-color: #333333;
+  margin-bottom: 20px;
+}
+
+.comment1 img {
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin: 15px 15px 0 15px;
+}
+.comment1 p {
+  padding: 10px;
+  font-size: 15px;
+}
+.comment2 {
+  background-color: #1e1e1e;
+}
+
+.linput {
+  margin-top: 15px;
+}
+.linput input {
+  margin-bottom: 10px;
+}
+.items .item_two {
+  width: 35%;
+  margin-top: 40px;
+}
+.secondary_nav {
+  width: 90%;
+  height: 435px;
+  background-color: #1f1f1f;
+  color: #666666;
+  padding: 25px 30px 0 20px;
+  margin-bottom: 35px;
+}
+.secondary_nav h3 {
+  padding-bottom: 15px;
+  border-bottom: 1px dashed #666666;
+}
+.secondary_nav ul {
+  padding-top: 20px;
+}
+.secondary_nav ul li {
+  list-style: none;
+  font-size: 15px;
+  border-bottom: 1px dotted #666666;
+  padding: 7px 0;
+}
+.secondary_nav ul li:hover {
+  color: #bfe009;
+  transition: 0.5s;
+}
+.null {
+  display: flex;
+  border-bottom: 2px dotted #666666;
+  margin-right: 55px;
+}
+.null img {
+  width: 100px;
+  border: 1px solid #666666;
+  padding: 5px;
+  margin: 0 10px 10px 0;
+}
+.null h3 {
+  padding-top: 20px;
+}
+.nullp p {
+  font-size: 15px;
+  padding-top: 10px;
+}
+.indo {
+  margin-top: 20px;
+  height: 460px;
+}
+
+.indo img {
+  width: 90%;
+  height: 150px;
+  margin: 20px 0 10px 0;
+  border: 1px solid #666666;
+  padding: 5px;
+}
+.lorem p {
+  font-size: 15px;
+  padding-top: 15px;
+}
+.lorem ul {
+  padding: 15px 30px;
+}
+.lorem ul li {
+  font-size: 15px;
+}
